@@ -6,33 +6,36 @@
     <title>KCM SMART | WEB DEV JUNIOR</title>
     <link rel="stylesheet" href="./src/output.css">
 </head>
-<body class="w-screen h-screen font-Boldonse text-black flex flex-col-reverse place-content-start ">
-    <header class="bg-Blue w-full">
+<body class="w-screen h-screen font-Boldonse text-black flex flex-col lg:flex-row-reverse">
+    <header class="hidden w-full lg:flex lg:w-1/2 h-screen bg-Blue p-5">
         <nav>
-            <ul class="flex justify-center gap-4">
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Sobre mi</a></li>
-                <li><a href="">Portafolio</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Contacto</a></li>
+            <ul class="lg:flex lg:justify-center lg:items-center lg:gap-5 text-Dark-white">
+                <li class="lg:hover:bg-blue-950 lg:p-3 lg:rounded-2xl"><a href="./index.html">Inicio</a></li>
+                <li class="lg:hover:bg-blue-950 lg:p-3 lg:rounded-2xl"><a href="">Sobre mi</a></li>
+                <li class="lg:hover:bg-blue-950 lg:p-3 lg:rounded-2xl"><a href="">Portafolio</a></li>
+                <li class="lg:hover:bg-blue-950 lg:p-3 lg:rounded-2xl"><a href="">Blog</a></li>
+                <li class="lg:hover:bg-blue-950 lg:p-3 lg:rounded-2xl"><a href="">Contacto</a></li>
             </ul>
         </nav>
     </header>
-    <main class="bg-Dark-white p-5">
+    <main class="w-full lg:w-1/2 h-screen bg-Dark-white p-5 lg:flex lg:flex-col lg:justify-between">
         <section>
-            <img src="./assets/images/logonegro.png" alt="logo kcmsmart" class="w-12">
+            <img src="./assets/images/logonegro.png" alt="logo kcmsmart" class="w-13">
         </section>
-        <section class="mt-10 flex flex-col gap-3 ">
-            <p class="text-2xl">Hola, yo soy</p>
-            <p class="text-4xl">Kener Cotrina</p>
-            <p class="font-Monserrat text-2xl">Front-end developers</p>
+        <section class="mt-10 flex flex-col gap-3">
+            <p class="text-2xl lg:text-3xl">Hola, yo soy</p>
+            <p class="text-4xl lg:text-6xl lg:mt-5">Kener Cotrina</p>
+            <p class="font-Monserrat text-2xl lg:text-3xl lg:mt-2">Front-end developers</p>
+            <section class="flex gap-4 lg:mt-5">
+                <a href=""><img src="./assets/images/instagram.png" alt="cuenta instagram" class="w-6"></a>
+                <a href=""><img src="./assets/images/whatsapp.png" alt="cuenta whatsapp" class="w-6"></a>
+                <a href=""><img src="./assets/images/github.png" alt="cuenta de github" class="w-6"></a>
+            </section>
         </section> 
-        <section class="flex gap-4 mt-5 ">
-            <a href=""><img src="./assets/images/instagram.png" alt="cuenta instagram" class="w-6"></a>
-            <a href=""><img src="./assets/images/whatsapp.png" alt="cuenta whatsapp" class="w-6"></a>
-            <a href=""><img src="./assets/images/github.png" alt="cuenta de github" class="w-6"></a>
+       
+        <section class="">
+            <span>Designe by <a href="/index.html">KCMSMART.com</a></span>
         </section>
-        <section></section>
     </main>
 </body>
 </html>
