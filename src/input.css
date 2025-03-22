@@ -8,9 +8,18 @@
     src: url("../assets/fonts/Boldonse-Regular.ttf");
 }
 
+@font-face {
+    font-family: Monserrat;
+    font-style: normal;
+    font-weight: 200 700;
+    font-display: swap;
+    src: url("../assets/fonts/Montserrat-VariableFont_wght.ttf");
+}
+
 @theme{
     --color-Blue:#1054e9;
     --color-Dark-white:#f0f0f0;
-    --color-black:#0000;
+    --color-black:#00000;
     --font-Boldonse: Boldonse;
+    --font-Monserrat: Monserrat;
 }
