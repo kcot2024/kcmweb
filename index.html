@@ -7,25 +7,33 @@
     <link rel="stylesheet" href="./src/output.css">
 </head>
 <body class="w-screen h-screen font-Boldonse text-black flex flex-col lg:flex-row-reverse">
-    <header class="hidden w-full lg:flex lg:w-1/2 h-screen bg-Blue p-5">
+    <header class="hidden  bg-Blue lg:flex lg:w-1/2 lg:flex-col h-screen lg:pt-5">
         <nav>
+            <button data-collapse-toggle="navbar-multi-level" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-multi-level" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                </svg>
+            </button>
             <ul class="lg:flex lg:justify-center lg:items-center lg:gap-5 text-Dark-white">
-                <li class="lg:hover:bg-blue-950 lg:p-3 lg:rounded-2xl"><a href="./index.html">Inicio</a></li>
-                <li class="lg:hover:bg-blue-950 lg:p-3 lg:rounded-2xl"><a href="">Sobre mi</a></li>
-                <li class="lg:hover:bg-blue-950 lg:p-3 lg:rounded-2xl"><a href="">Portafolio</a></li>
-                <li class="lg:hover:bg-blue-950 lg:p-3 lg:rounded-2xl"><a href="">Blog</a></li>
-                <li class="lg:hover:bg-blue-950 lg:p-3 lg:rounded-2xl"><a href="">Contacto</a></li>
+                <li class="lg:bg-blue-950 lg:hover:bg-blue-950 lg:p-3 lg:rounded-2xl"><a href="./index.html">Inicio</a></li>
+                <li class="lg:hover:bg-blue-950 lg:p-3 lg:rounded-2xl lg:hover:transition lg:hover:duration-1000 lg:hover:ease-in-out"><a href="./pages/aboutme.html">Sobre mi</a></li>
+                <li class="lg:hover:bg-blue-950 lg:p-3 lg:rounded-2xl lg:hover:transition lg:hover:duration-1000 lg:hover:ease-in-out"><a href="">Portafolio</a></li>
+                <li class="lg:hover:bg-blue-950 lg:p-3 lg:rounded-2xl lg:hover:transition lg:hover:duration-1000 lg:hover:ease-in-out"><a href="">Blog</a></li>
+                <li class="lg:hover:bg-blue-950 lg:p-3 lg:rounded-2xl lg:hover:transition lg:hover:duration-1000 lg:hover:ease-in-out"><a href="">Contacto</a></li>
             </ul>
         </nav>
+        <img class="lg:mx-auto lg:overflow-hidden" src="./assets/images/5800.png" alt="">
     </header>
     <main class="w-full lg:w-1/2 h-screen bg-Dark-white p-5 lg:flex lg:flex-col lg:justify-between">
         <section>
-            <img src="./assets/images/logonegro.png" alt="logo kcmsmart" class="w-10">
+            <img src="./assets/images/logonegro.png" alt="logo kcmsmart" class="w-12 lg:w-15">
         </section>
         <section class="mt-10 flex flex-col gap-3">
             <p class="text-2xl lg:text-3xl">Hola, yo soy</p>
-            <p class="text-4xl lg:text-6xl lg:mt-5">Kener Cotrina</p>
+            <p class="text-4xl lg:text-6xl lg:mt-5 lg:text-Blue">Kener Cotrina</p>
             <p class="font-Monserrat text-2xl lg:text-3xl lg:mt-2">Front-end developers</p>
+            <p class="text-[1em] font-Monserrat">"Soy un joven con experiencia en el sector de logística internacional. Me apasiona viajar, hacer trekking, descubrir nuevos lugares e interactuar con la comunidad local. Además, disfruto ampliar mis conocimientos, por lo que frecuentemente me inscribo en cursos sobre temas de mi interés."</p>
             <section class="flex gap-4 lg:mt-5">
                 <a href=""><img src="./assets/images/instagram.png" alt="cuenta instagram" class="w-6"></a>
                 <a href=""><img src="./assets/images/whatsapp.png" alt="cuenta whatsapp" class="w-6"></a>
@@ -33,7 +41,7 @@
             </section>
         </section> 
        
-        <section class="">
+        <section class=" text-[0.6em]">
             <span>Designe by <a href="./index.html">KCMSMART.com</a></span>
         </section>
     </main>
