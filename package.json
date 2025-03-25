@@ -1,6 +1,25 @@
 {
   "dependencies": {
-    "@tailwindcss/cli": "^4.0.15",
-    "tailwindcss": "^4.0.15"
-  }
+    "@tailwindcss/cli": "^4.0.16",
+    "tailwindcss": "^4.0.16"
+  },
+  "name": "kcmweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kcot2024/kcmweb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kcot2024/kcmweb/issues"
+  },
+  "homepage": "https://github.com/kcot2024/kcmweb#readme"
 }
